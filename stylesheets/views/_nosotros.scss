@@ -28,7 +28,7 @@ li{
 }
 
 #portada{
-	background-image: url("http://placehold.it/1200x700");
+	background: url(http://placehold.it/1000x500) no-repeat center center scroll;
 	height:100%;
 	width:100%;
 	position:relative;
@@ -114,5 +114,8 @@ footer {
 	padding: 7px 42px;
 	.text-right{
 	border-right: 1px solid;
+	}
+	.col-md-2{
+	  padding: 3% 0;
 	}
 }

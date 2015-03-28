@@ -40,7 +40,7 @@ li{
 }
 
 #portada {
-	background-image: url(http://placehold.it/1000x500);
+  	background: url(http://placehold.it/1000x500) no-repeat center center scroll;
 	background-size:cover;
 	height:100%;
 	width:100%;
@@ -60,35 +60,21 @@ li{
 			border: 1px solid white;
 		}
 	}
-	
 }
 
 #nosotros{
-	.btn-custom{
+	  .btn-custom{
 	  color: #3ea4a8;
 	  border: 2px solid;
-	  padding: 7px 42px;
 	  font-size: 21px;
 	  margin: 35px 0;
-	}
-	.text-center{
-	  padding: 7% 14%;
 	}
 }
 
-
 #novedades{
 	background-color:lightgray;
-	.container{
-	padding: 0 7%;
-    padding-bottom: 2%;
-	}
-	.btn-custom{
-	  color: #3ea4a8;
-	  border: 2px solid;
-	  padding: 7px 42px;
-	  font-size: 21px;
-	  margin: 35px 0;
+	.row{
+	  padding-bottom: 27px;
 	}
 }
 
@@ -98,7 +84,7 @@ footer {
 	.text-right{
 	border-right: 1px solid;
 	}
-	.col-xs-8{
+	.col-md-2{
 	  padding: 3% 0;
 	}
 }

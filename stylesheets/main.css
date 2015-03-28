@@ -5645,30 +5645,30 @@ body {
       .navbar .navbar-nav li a {
         color: gray; }
 
-.portada {
-  background-image: url("http://placehold.it/1200x700");
+#portada {
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
   height: 100%;
   width: 100%;
   position: relative;
   background-size: cover;
   display: table; }
-  .portada .text-vertical-center {
+  #portada .text-vertical-center {
     color: white;
     display: table-cell;
     vertical-align: middle;
     padding-left: 63px; }
-    .portada .text-vertical-center h3 {
+    #portada .text-vertical-center h3 {
       font-size: 40px; }
-    .portada .text-vertical-center p {
+    #portada .text-vertical-center p {
       font-size: 18px; }
 
-.nosotros {
+#nosotros {
   background-color: #eeeeee;
-  padding: 70px 300px; }
-  .nosotros p {
+  padding: 50px 0; }
+  #nosotros p {
     color: gray;
     font-size: 18px; }
-  .nosotros .btn-custom {
+  #nosotros .btn-custom {
     color: #3ea4a8;
     border: 2px solid;
     background-color: #eeeeee;
@@ -5676,8 +5676,8 @@ body {
     font-size: 21px;
     margin-top: 35px; }
 
-.col-xs-8 {
-  padding: 3% 0; }
+.imagen img {
+  width: 100%; }
 
 .bg-danger,
 .bg-info {
@@ -5689,27 +5689,27 @@ body {
     border: 2px solid white;
     padding: 10px 30px; }
 
-.caricaturas {
+#caricaturas {
   background-color: #eeeeee; }
 
-.alianzas ul {
+#alianzas ul {
   padding: 0 21%;
   margin-bottom: 42px; }
 
-.novedades {
+#novedades {
   background-color: #eeeeee; }
-  .novedades .post {
+  #novedades .post {
     background-color: white;
     color: gray; }
-    .novedades .post img {
+    #novedades .post img {
       width: 100%; }
-    .novedades .post h4 {
+    #novedades .post h4 {
       padding: 21px 0; }
-    .novedades .post p {
+    #novedades .post p {
       padding: 0 21px 21px; }
-  .novedades .posts {
+  #novedades .posts {
     padding: 0 7%; }
-  .novedades .btn-custom {
+  #novedades .btn-custom {
     color: #3ea4a8;
     border: 2px solid;
     background-color: #eeeeee;
@@ -5717,25 +5717,29 @@ body {
     font-size: 21px;
     margin: 35px 0; }
 
-.noticias {
+#noticias {
   padding: 7% 21%; }
-  .noticias h4 {
+  #noticias h4 {
     font-size: 42px; }
-  .noticias .input-group-addon {
+  #noticias .input-group-addon {
     background-color: #0478e8;
     color: white; }
 
-.redes .sociales {
+#redes .sociales {
   height: 300px;
   background-color: lightgray; }
-.redes .redessociales {
+#redes .redessociales {
   padding: 0 14% 7%; }
+  #redes .redessociales .col-md-4 {
+    margin-bottom: 27px; }
 
-.footer {
+footer {
   background-color: black;
   padding: 7px 42px; }
-  .footer .text-right {
+  footer .text-right {
     border-right: 1px solid; }
+  footer .col-md-2 {
+    padding: 3% 0; }
 
 html,
 body {
@@ -5762,7 +5766,7 @@ body {
         color: gray; }
 
 #portada {
-  background-image: url("http://placehold.it/1200x700");
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
   height: 100%;
   width: 100%;
   position: relative;
@@ -5822,6 +5826,8 @@ footer {
   padding: 7px 42px; }
   footer .text-right {
     border-right: 1px solid; }
+  footer .col-md-2 {
+    padding: 3% 0; }
 
 body,
 html,
@@ -5842,7 +5848,7 @@ html,
     display: inline-block; }
 
 #portada {
-  background-image: url(http://placehold.it/1000x500);
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -5861,7 +5867,7 @@ html,
       border: 1px solid white; }
 
 #nosotros .text-center {
-  padding: 7% 14%; }
+  padding: 50px 0; }
 
 #novedades {
   background-color: lightgray; }
@@ -5874,7 +5880,7 @@ footer {
   padding: 7px 42px; }
   footer .text-right {
     border-right: 1px solid; }
-  footer .col-xs-8 {
+  footer .col-md-2 {
     padding: 3% 0; }
 
 body,
@@ -5909,7 +5915,7 @@ html,
         color: gray; }
 
 #portada {
-  background-image: url(http://placehold.it/1000x500);
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -5984,7 +5990,7 @@ html,
     display: inline-block; }
 
 #portada {
-  background-image: url(http://placehold.it/1000x500);
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -6005,30 +6011,20 @@ html,
 #nosotros .btn-custom {
   color: #3ea4a8;
   border: 2px solid;
-  padding: 7px 42px;
   font-size: 21px;
   margin: 35px 0; }
-#nosotros .text-center {
-  padding: 7% 14%; }
 
 #novedades {
   background-color: lightgray; }
-  #novedades .container {
-    padding: 0 7%;
-    padding-bottom: 2%; }
-  #novedades .btn-custom {
-    color: #3ea4a8;
-    border: 2px solid;
-    padding: 7px 42px;
-    font-size: 21px;
-    margin: 35px 0; }
+  #novedades .row {
+    padding-bottom: 27px; }
 
 footer {
   background-color: black;
   padding: 7px 42px; }
   footer .text-right {
     border-right: 1px solid; }
-  footer .col-xs-8 {
+  footer .col-md-2 {
     padding: 3% 0; }
 
 .p-0 {
