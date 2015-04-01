@@ -5625,48 +5625,24 @@ html,
 body {
   height: 100%; }
 
-.navbar {
-  min-height: 90px;
-  margin-bottom: 0;
-  position: fixed;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%; }
-  .navbar .navbar-nav {
-    float: none;
-    text-align: right;
-    padding-top: 14px; }
-    .navbar .navbar-nav li {
-      float: none;
-      display: inline-block;
-      font-size: rem(18px);
-      font-size: 24px;
-      padding: 0 21px; }
-      .navbar .navbar-nav li a {
-        color: gray; }
-
-#portada {
-  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-size: cover;
-  display: table; }
-  #portada .text-vertical-center {
-    color: white;
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 63px; }
-    #portada .text-vertical-center h3 {
-      font-size: 40px; }
-    #portada .text-vertical-center p {
-      font-size: 18px; }
+#portada .text-vertical-center {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 63px;
+  padding-top: 70px; }
+  #portada .text-vertical-center h1 {
+    font-size: 45px;
+    font-family: serif; }
+  #portada .text-vertical-center p {
+    font-size: 18px; }
 
 #nosotros {
-  background-color: #eeeeee;
-  padding: 50px 0; }
+  background-color: #F0F0F0;
+  padding-top: 80px;
+  padding-bottom: 50px; }
   #nosotros p {
-    color: gray;
+    color: #a09e9e;
     font-size: 18px; }
   #nosotros .btn-custom {
     color: #3ea4a8;
@@ -5674,7 +5650,37 @@ body {
     background-color: #eeeeee;
     padding: 7px 42px;
     font-size: 21px;
-    margin-top: 35px; }
+    margin-top: 50px;
+    border-radius: 0;
+    font-family: serif; }
+
+#investigacion .row {
+  padding-bottom: 3px; }
+#investigacion h2 {
+  font-family: serif;
+  font-size: 35px;
+  color: #6e6767; }
+#investigacion .text-center {
+  padding: 50px 0; }
+  #investigacion .text-center h2 {
+    margin-bottom: 30px; }
+  #investigacion .text-center p {
+    color: #c5c5c5;
+    font-size: 18px; }
+#investigacion .text-muted {
+  padding: 50px 40px; }
+  #investigacion .text-muted h2 {
+    font-family: serif;
+    color: white; }
+  #investigacion .text-muted p {
+    color: white;
+    font-size: 16px; }
+  #investigacion .text-muted button {
+    margin-top: 18px;
+    border-radius: 0;
+    font-family: serif;
+    font-size: 20px;
+    padding: 10px 60px; }
 
 .imagen img {
   width: 100%; }
@@ -5690,144 +5696,213 @@ body {
     padding: 10px 30px; }
 
 #caricaturas {
+  padding: 50px 0;
   background-color: #eeeeee; }
+  #caricaturas h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #6e6767;
+    margin-bottom: 30px; }
+  #caricaturas p {
+    color: #c5c5c5;
+    font-size: 18px; }
 
+#alianzas h2 {
+  font-family: serif;
+  font-size: 35px;
+  color: #6e6767;
+  margin-bottom: 30px; }
+#alianzas h3 {
+  color: #969292; }
+#alianzas p {
+  color: #c5c5c5;
+  font-size: 18px; }
 #alianzas ul {
   padding: 0 21%;
   margin-bottom: 42px; }
+  #alianzas ul li {
+    padding-bottom: 21px; }
+    #alianzas ul li .media-body h3 {
+      margin-bottom: 14px; }
 
 #novedades {
   background-color: #eeeeee; }
-  #novedades .post {
-    background-color: white;
-    color: gray; }
-    #novedades .post img {
-      width: 100%; }
-    #novedades .post h4 {
-      padding: 21px 0; }
-    #novedades .post p {
-      padding: 0 21px 21px; }
+  #novedades .novedades {
+    padding: 50px 0; }
+    #novedades .novedades h2 {
+      font-family: serif;
+      font-size: 35px;
+      color: #6e6767;
+      margin-bottom: 30px; }
+    #novedades .novedades p {
+      color: #c5c5c5;
+      font-size: 18px; }
   #novedades .posts {
-    padding: 0 7%; }
+    padding: 0 9%; }
+    #novedades .posts .post {
+      background-color: white;
+      color: gray; }
+      #novedades .posts .post a {
+        color: #837f7f; }
+      #novedades .posts .post h3:hover {
+        color: #06bbc2;
+        text-decoration: none; }
+      #novedades .posts .post img {
+        width: 100%; }
+      #novedades .posts .post h3 {
+        padding: 50px 0 20px;
+        text-align: center; }
+      #novedades .posts .post p {
+        padding: 0 21px 70px;
+        line-height: 25px;
+        font-size: 16px; }
+      #novedades .posts .post h3,
+      #novedades .posts .post p {
+        color: #a3a1a1; }
   #novedades .btn-custom {
     color: #3ea4a8;
     border: 2px solid;
     background-color: #eeeeee;
     padding: 7px 42px;
     font-size: 21px;
-    margin: 35px 0; }
+    margin: 35px 0;
+    margin-bottom: 70px;
+    border-radius: 0; }
 
 #noticias {
-  padding: 7% 21%; }
+  padding: 170px 0; }
   #noticias h4 {
-    font-size: 42px; }
+    font-family: serif;
+    font-size: 57px; }
+  #noticias .input-group {
+    padding: 21px 140px; }
+    #noticias .input-group .form-control {
+      padding: 21px;
+      font-size: 20px; }
+    #noticias .input-group .input-group-addon {
+      padding: 0 70px; }
   #noticias .input-group-addon {
     background-color: #0478e8;
     color: white; }
 
+#redes h2 {
+  font-family: serif;
+  font-size: 35px;
+  color: #6e6767;
+  margin-bottom: 30px; }
+#redes p {
+  color: #c5c5c5;
+  font-size: 18px; }
+#redes .text-center {
+  padding: 50px 0; }
 #redes .sociales {
-  height: 300px;
+  height: 250px;
+  padding: 10px 21px;
+  color: white;
   background-color: lightgray; }
 #redes .redessociales {
-  padding: 0 14% 7%; }
+  padding: 0 8% 7%; }
   #redes .redessociales .col-md-4 {
     margin-bottom: 27px; }
-
-footer {
-  background-color: black;
-  padding: 7px 42px; }
-  footer .text-right {
-    border-right: 1px solid; }
-  footer .col-md-2 {
-    padding: 3% 0; }
 
 html,
 body {
   height: 100%; }
 
-.navbar {
-  min-height: 90px;
-  margin-bottom: 0;
-  position: fixed;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%; }
-  .navbar .navbar-nav {
-    float: none;
-    text-align: right;
-    padding-top: 14px; }
-    .navbar .navbar-nav li {
-      float: none;
-      display: inline-block;
-      font-size: rem(18px);
-      font-size: 24px;
-      padding: 0 21px; }
-      .navbar .navbar-nav li a {
-        color: gray; }
-
-#portada {
-  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-size: cover;
-  display: table; }
-  #portada .text-vertical-center {
-    color: white;
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 63px; }
-    #portada .text-vertical-center h3 {
-      font-size: 40px; }
-    #portada .text-vertical-center p {
-      font-size: 18px; }
+#portada .text-vertical-center {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 63px;
+  padding-top: 70px; }
+  #portada .text-vertical-center h1 {
+    font-size: 45px;
+    font-family: serif; }
+  #portada .text-vertical-center p {
+    font-size: 18px; }
 
 #seccion2 {
-  padding: 35px; }
+  padding: 90px 0 40px; }
+  #seccion2 .text-center {
+    padding-bottom: 50px; }
   #seccion2 p {
     color: gray;
     font-size: 18px; }
+  #seccion2 .mision {
+    padding-bottom: 14px; }
+    #seccion2 .mision a h3 {
+      margin-top: 0;
+      color: gray;
+      font-family: serif; }
 
 .col-xs-8 {
   padding: 3% 0; }
 
 #area {
   background-color: #eeeeee;
-  padding: 0 100px; }
+  padding: 50px 0; }
+  #area .descripcion {
+    padding-bottom: 60px; }
+  #area .text-center h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #6e6767;
+    margin-bottom: 30px; }
+  #area .text-center p {
+    color: #c5c5c5;
+    font-size: 18px; }
+  #area .text-center h3 {
+    font-family: serif; }
   #area .trabajo {
     padding-bottom: 14px; }
     #area .trabajo .areastrabajo img {
       width: 100%; }
   #area .overlay {
-    padding: 21px; }
+    padding: 21px;
+    border: 1px solid white; }
     #area .overlay h3 {
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      color: gray; }
 
 .overlay:hover {
-  background-color: #cef7f5;
+  background-color: #83AAD0;
   border: 1px solid #2996b6; }
 
 #equipo {
   padding: 42px 0; }
+  #equipo h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #6e6767;
+    margin-bottom: 30px; }
   #equipo .row .col-md-4 .text-center {
-    padding: 0 70px; }
+    padding: 0 70px;
+    padding-bottom: 35px; }
     #equipo .row .col-md-4 .text-center img {
       width: 100%; }
     #equipo .row .col-md-4 .text-center h4 {
-      color: #0cc7cf; }
+      color: #0cc7cf;
+      font-family: serif;
+      font-size: 27px;
+      margin-top: 26px; }
+    #equipo .row .col-md-4 .text-center p {
+      font-size: 17px;
+      color: gray; }
 
 #asociados {
   background-color: lightgray; }
+  #asociados h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #6e6767;
+    margin-bottom: 30px; }
+  #asociados p {
+    color: #c5c5c5;
+    font-size: 18px; }
+  #asociados .text-center {
+    padding-bottom: 50px; }
   #asociados .colaboradores {
-    padding-bottom: 42px; }
-
-footer {
-  background-color: black;
-  padding: 7px 42px; }
-  footer .text-right {
-    border-right: 1px solid; }
-  footer .col-md-2 {
-    padding: 3% 0; }
+    padding-bottom: 60px; }
 
 body,
 html,
@@ -5835,53 +5910,21 @@ html,
 .container {
   height: 100%; }
 
-.navbar-default {
-  position: fixed;
-  width: 100%;
-  z-index: 10; }
-
-.navbar-nav {
-  float: none;
-  text-align: right; }
-  .navbar-nav li {
-    float: none;
-    display: inline-block; }
-
-#portada {
-  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: table;
-  position: relative; }
-  #portada .botones-portada {
-    text-align: center;
-    margin-top: 125px;
-    margin-left: 43%; }
-    #portada .botones-portada .btn-default {
-      background-color: transparent;
-      color: white; }
-    #portada .botones-portada .btn-fold {
-      float: left;
-      border-radius: 0;
-      border: 1px solid white; }
+#portada .botones-portada {
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 43%; }
+  #portada .botones-portada .btn-default {
+    background-color: transparent;
+    color: white; }
+  #portada .botones-portada .btn-fold {
+    float: left;
+    border-radius: 0;
+    border: 1px solid white; }
 
 #nosotros .text-center {
-  padding: 50px 0; }
-
-#novedades {
-  background-color: lightgray; }
-  #novedades .container {
-    padding: 0 7%;
-    padding-bottom: 2%; }
-
-footer {
-  background-color: black;
-  padding: 7px 42px; }
-  footer .text-right {
-    border-right: 1px solid; }
-  footer .col-md-2 {
-    padding: 3% 0; }
+  padding: 50px 0;
+  text-align: left; }
 
 body,
 html,
@@ -5889,57 +5932,28 @@ html,
 .container {
   height: 100%; }
 
-.navbar-default {
-  position: fixed;
-  width: 100%;
-  z-index: 10; }
-
-.navbar {
-  min-height: 90px;
-  margin-bottom: 0;
-  position: fixed;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%; }
-  .navbar .navbar-nav {
-    float: none;
-    text-align: right;
-    padding-top: 14px; }
-    .navbar .navbar-nav li {
-      float: none;
-      display: inline-block;
-      font-size: rem(18px);
-      font-size: 24px;
-      padding: 0 21px; }
-      .navbar .navbar-nav li a {
-        color: gray; }
-
-#portada {
-  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: table;
-  position: relative; }
-
-#novedades .container {
-  padding: 0 7%;
-  padding-bottom: 2%; }
-#novedades h3 {
-  text-align: initial;
-  padding: 21px 0; }
-#novedades .novedades {
-  position: relative; }
-  #novedades .novedades img {
-    width: 100%; }
-  #novedades .novedades .overlay {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%; }
-    #novedades .novedades .overlay h4,
-    #novedades .novedades .overlay p {
-      visibility: hidden; }
+#novedad {
+  padding: 50px 0; }
+  #novedad .container {
+    padding: 0 7%;
+    padding-bottom: 2%; }
+  #novedad .row {
+    padding-bottom: 14px; }
+  #novedad h3 {
+    text-align: initial;
+    padding: 21px 0; }
+  #novedad .novedades {
+    position: relative; }
+    #novedad .novedades img {
+      width: 100%; }
+    #novedad .novedades .overlay {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+      #novedad .novedades .overlay h4,
+      #novedad .novedades .overlay p {
+        visibility: hidden; }
 
 .overlay:hover h4,
 .overlay:hover p {
@@ -5948,84 +5962,40 @@ html,
 .overlay:hover {
   background-color: #d7e0e9; }
 
-footer {
-  background-color: black;
-  padding: 7px 42px; }
-  footer .text-right {
-    border-right: 1px solid; }
-  footer .col-xs-8 {
-    padding: 3% 0; }
-
 body,
 html,
 .container-fluid,
 .container {
   height: 100%; }
 
-.navbar {
-  min-height: 90px;
-  margin-bottom: 0;
-  position: fixed;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%; }
-  .navbar .navbar-nav {
-    float: none;
-    text-align: right;
-    padding-top: 14px; }
-    .navbar .navbar-nav li {
-      float: none;
-      display: inline-block;
-      font-size: rem(18px);
-      font-size: 24px;
-      padding: 0 21px; }
-      .navbar .navbar-nav li a {
-        color: gray; }
+#portada .botones-portada {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 35%; }
+  #portada .botones-portada .btn-default {
+    background-color: transparent;
+    font-size: 25px;
+    color: white; }
+  #portada .botones-portada .btn-fold {
+    float: left;
+    border-radius: 0;
+    border: 1px solid white; }
 
-.navbar-nav {
-  float: none;
-  text-align: right; }
-  .navbar-nav li {
-    float: none;
-    display: inline-block; }
-
-#portada {
-  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: table;
-  position: relative; }
-  #portada .botones-portada {
-    text-align: center;
-    margin-top: 125px;
-    margin-left: 43%; }
-    #portada .botones-portada .btn-default {
-      background-color: transparent;
-      color: white; }
-    #portada .botones-portada .btn-fold {
-      float: left;
-      border-radius: 0;
-      border: 1px solid white; }
-
-#nosotros .btn-custom {
-  color: #3ea4a8;
-  border: 2px solid;
-  font-size: 21px;
-  margin: 35px 0; }
-
-#novedades {
-  background-color: lightgray; }
-  #novedades .row {
-    padding-bottom: 27px; }
-
-footer {
-  background-color: black;
-  padding: 7px 42px; }
-  footer .text-right {
-    border-right: 1px solid; }
-  footer .col-md-2 {
-    padding: 3% 0; }
+#nosotros {
+  padding-top: 80px;
+  padding-bottom: 50px; }
+  #nosotros p {
+    color: #a09e9e;
+    font-size: 18px; }
+  #nosotros .btn-custom {
+    color: #3ea4a8;
+    border: 2px solid;
+    background-color: #eeeeee;
+    padding: 7px 42px;
+    font-size: 21px;
+    margin-top: 50px;
+    border-radius: 0;
+    font-family: serif; }
 
 .p-0 {
   padding: rem(0) !important;
@@ -6472,5 +6442,91 @@ footer {
 
 .pull-right {
   float: right; }
+
+#portada {
+  background: url(http://placehold.it/1000x500) no-repeat center center scroll;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  display: table; }
+
+#novedades {
+  background-color: #eeeeee; }
+  #novedades h2 {
+    font-family: serif;
+    font-size: 35px;
+    color: #6e6767;
+    margin-bottom: 30px;
+    text-aling: left; }
+  #novedades .novedades {
+    padding: 50px 0; }
+    #novedades .novedades p {
+      color: #c5c5c5;
+      font-size: 18px; }
+  #novedades .posts {
+    padding: 0 9%; }
+    #novedades .posts .post {
+      background-color: white;
+      color: gray; }
+      #novedades .posts .post a {
+        color: #837f7f; }
+      #novedades .posts .post h3:hover {
+        color: #06bbc2;
+        text-decoration: none; }
+      #novedades .posts .post img {
+        width: 100%; }
+      #novedades .posts .post h3 {
+        padding: 50px 0 20px;
+        text-align: center; }
+      #novedades .posts .post p {
+        padding: 0 21px 70px;
+        line-height: 25px;
+        font-size: 16px; }
+      #novedades .posts .post h3,
+      #novedades .posts .post p {
+        color: #a3a1a1; }
+  #novedades .btn-custom {
+    color: #3ea4a8;
+    border: 2px solid;
+    background-color: #eeeeee;
+    padding: 7px 42px;
+    font-size: 21px;
+    margin: 35px 0;
+    margin-bottom: 70px;
+    border-radius: 0; }
+
+.navbar {
+  min-height: 125px;
+  margin-bottom: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%; }
+  .navbar .navbar-nav {
+    float: none;
+    text-align: right;
+    padding-top: 40px; }
+    .navbar .navbar-nav li {
+      float: none;
+      display: inline-block;
+      font-size: rem(18px);
+      font-size: 24px;
+      padding: 0 21px; }
+      .navbar .navbar-nav li a {
+        color: #a6a1a1; }
+  .navbar .navbar-brand img {
+    padding-left: 49px; }
+
+footer {
+  background-color: #353131;
+  padding: 30px 42px; }
+  footer .text-right {
+    border-right: 1px solid;
+    padding: 0 14px; }
+  footer .col-md-2 {
+    padding: 3% 0; }
+  footer .text-muted {
+    padding-right: 30px; }
 
 /*# sourceMappingURL=main.css.map */
