@@ -15,14 +15,21 @@
 			font-size:rem(18px);
 			font-size:24px;
 			padding:0 21px;
-			a {
-				color:rgb(166, 161, 161);
+				a {
+					color:rgb(166, 161, 161);
+				}
 			}
+			}
+		.navbar-toggle{
+			  background-color: #CCCCC !important;
+			  border-color: rgb(77, 76, 76);
+				.icon-bar{
+				background-color:#544F4F;
+				}
+			}
+		.navbar-brand{
+			img{
+			  padding-left: 49px;
+				}
 		}
-	}
-	.navbar-brand{
-		img{
-		  padding-left: 49px;
-		}
-	}
-} 
+	} 

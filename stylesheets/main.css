@@ -6511,6 +6511,11 @@ html,
       padding: 0 21px; }
       .navbar .navbar-nav li a {
         color: #a6a1a1; }
+  .navbar .navbar-toggle {
+    background-color: #CCCCC !important;
+    border-color: #4d4c4c; }
+    .navbar .navbar-toggle .icon-bar {
+      background-color: #544F4F; }
   .navbar .navbar-brand img {
     padding-left: 49px; }
 
